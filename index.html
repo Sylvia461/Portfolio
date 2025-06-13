@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joan Sylvia Michael - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-nav">
+    <h2>Joan Sylvia</h2>
+    <ul class="horizontal-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#notes">Notes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Hello, I'm <span>Joan Sylvia Michael</span></h1>
+      <p>An Aspiring Developer with a Creative Spark and a Strategic Mind.</p>
+    </div>
+    <div class="hero-right">
+      <div class="profile-img-glow">
+        <img src="profile pic.jpg" alt="Joan Sylvia" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Joan Sylvia, a BScIT student at Sophia College for Women (Empowered Autonomous), Mumbai. I completed my 11th and 12th from St. Xavier’s College, Mumbai, where my interest in technology and design began. I’m skilled in C, C++, Python, HTML, and CSS, and have hands-on experience creating web projects with dynamic features.
+
+Beyond programming, I have contributed to marketing and coordination roles in college fests, worked on posters and content creation, and enjoy blending creativity with logic in everything I build. I’m passionate about continuous learning, design thinking, and using tech to solve real-world problems.</p>
+    <a href="Joan Sylvia Michael Resume.pdf" download class="download-resume">Download My Resume</a>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Marketing Coordinator for Kaleidoscope Fest</li>
+      <li>Volunteered for Marketing Team in Sanskriti Event (BSP Club)</li>
+      <li>Currently interning at ApexPlanet Software Pvt Ltd</li>
+      <li>Created posters using Canva for church activities</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill"><span>C </span><div class="bar"><div style="width: 80%;">80%</div></div></div>
+      <div class="skill"><span>C++</span><div class="bar"><div style="width: 75%;">75%</div></div></div>
+      <div class="skill"><span>HTML</span><div class="bar"><div style="width: 90%;">90%</div></div></div>
+      <div class="skill"><span>CSS</span><div class="bar"><div style="width: 85%;">85%</div></div></div>
+      <div class="skill"><span>Python</span><div class="bar"><div style="width: 70%;">70%</div></div></div>
+      <div class="skill"><span>Creativity</span><div class="bar"><div style="width: 95%;">95%</div></div></div>
+      <div class="skill"><span>Communication</span><div class="bar"><div style="width: 90%;">90%</div></div></div>
+      <div class="skill"><span>Problem Solving</span><div class="bar"><div style="width: 85%;">85%</div></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <a href="https://github.com/Sylvia461/Joke-generator-webpage" target="_blank"><img src="joke.png" alt="Joke Generator"></a>
+      <a href="https://github.com/Sylvia461/quiz-app" target="_blank"><img src="quiz.png" alt="Quiz App"></a>
+      <a href="https://github.com/Sylvia461/web-basic" target="_blank"><img src="basicweb.png" alt="Web Basic"></a>
+      <a href="https://github.com/Sylvia461/web-basic" target="_blank"><img src="task2.png" alt="Task 2"></a>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Products</h2>
+    <select id="sort">
+      <option value="">Sort By</option>
+      <option value="price-low">Price: Low to High</option>
+      <option value="price-high">Price: High to Low</option>
+      <option value="type-makeup">Makeup Only</option>
+      <option
+        value="type-skincare">Skincare Only</option>
+    </select>
+    <div class="product-list" id="productList"></div>
+    
+  </section>
+
+  <section id="notes">
+    <h2>Notes</h2>
+    <textarea id="noteInput" placeholder="Write a note..."></textarea>
+    <button onclick="saveNote()">Save Note</button>
+    <div id="savedNotes"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Enter your name" required />
+      <input type="email" placeholder="Enter your email ID" required />
+      <textarea placeholder="Write your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p class="contact-links">
+      <a href="mailto:joansylvia123@gmail.com" target="_blank">Email</a> |
+      <a href="https://www.linkedin.com/in/joan-sylvia-michael-b92391328" target="_blank">LinkedIn</a> |
+      <a href="https://www.instagram.com/sylvie_e_e?igsh=ajFxY2ljcHZtMzA3" target="_blank">Instagram</a>
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
